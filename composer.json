@@ -1,0 +1,21 @@
+{
+    "name": "ayaal/yii2-ayaal",
+    "description": "Parser for site",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ayaal",
+            "email": "uraankhayayaal@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ayaal\\parser\\": ""
+        }
+    }
+}
